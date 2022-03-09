@@ -1,0 +1,83 @@
+---
+layout: false
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>观影网微信公众号 优酷腾讯爱奇艺vip视频免费看 优酷腾讯爱奇艺vip视频解析 优酷腾讯爱奇艺会员视频免费看</title>
+    <meta name=”description” content="优酷腾讯爱奇艺哔哩哔哩免会员视频观看，观影网微信公众号">
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            padding: 0 30px;
+            background: url('https://7778-wx-coupon-prod-v975z-1300289696.tcb.qcloud.la/image/pexels-paul-voie-2627945.jpg?sign=0f39e53053f7221b606f9ba05cd4d6f8&t=1645807929') no-repeat center center;
+            background-size: cover;
+            padding-top: 30px;
+        }
+
+        input {
+            outline-style: none;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+            height: 2em
+        }
+
+        #search {
+            background-color: #ccc;
+            padding: 0 10px;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2><img src="http://yun.paiquandashu.com/guanyingnet/%E8%A7%82%E5%BD%B1%E7%BD%91.png" style="width: 10em"/></h2>
+    <p style="color: #fff; font-size: 1.1em; text-align: center">请输入想看的影视剧，点击查询</p>
+    <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+        <input id="name" class="nameInput" type="text" value="" placeholder="请输入电影/电视剧名称">
+        <div id="search">查询</div>
+    </div>
+    <iframe src="" id="player" width="100%" height="480px" allowtransparency="true" allowfullscreen="true"
+        frameborder="0" scrolling="no"></iframe>
+
+    <script>
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] == variable) { return pair[1]; }
+            }
+            return (false);
+        }
+        window.onload = function () {
+            var name = getQueryVariable('name') || ''
+            var decodeName = decodeURIComponent(name)
+            document.getElementById('name').setAttribute('value', decodeName)
+            document.getElementById('player').setAttribute('src', 'https://z1.m1907.cn/?jx=' + decodeName)
+        }
+        document.getElementById('search').addEventListener('click', function () {
+            var name = document.getElementById('name').value
+            document.getElementById('player').setAttribute('src', 'https://z1.m1907.cn/?jx=' + name)
+            console.log(name)
+        })
+    </script>
+</body>
+
+</html>

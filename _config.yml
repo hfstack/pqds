@@ -5,10 +5,10 @@
 # Site
 title: 派券大叔微信公众号
 subtitle: "各类优惠券，帮你省到家"
-description: "学习、成长记录"
+description: "派券大叔微信公众号，关注派券大叔微信公众号领取美团饿了么红包、滴滴打车红包、滴滴打折优惠券、高德打车优惠券、t3出行优惠券、电影折扣、喜茶折扣、麦当劳肯德基折扣"
 keywords: 派券大叔微信公众号,美团红包,饿了么红包,美团优惠券,饿了么优惠券,滴滴打车红包,滴滴打车优惠券,高德打车优惠券,肯德基优惠券,肯德基打折,喜茶优惠券,水果优惠券
-author: 君玮
-language: zh-Ch
+author: 派券大叔微信公众号
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -29,6 +29,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - "source/movies/index.html"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -99,21 +100,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
-menu:
-  首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  清单||fa fa-heartbeat:
-    音乐: /music/ || fas fa-music
-    照片: /Gallery/ || fas fa-images
-    电影: /movies/ || fas fa-video
-  友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: "git"
   repo: git@110.40.194.115:/var/repo/blog.git
   branch: master
+baidusitemap:
+  path: baidusitemap.xml
