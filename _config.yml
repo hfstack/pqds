@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 派券大叔微信公众号
+title: 派券大叔公众号
 subtitle: "各类优惠券，帮你省到家"
-description: "派券大叔微信公众号，关注派券大叔微信公众号领取美团饿了么红包、滴滴打车红包、滴滴打折优惠券、高德打车优惠券、t3出行优惠券、电影折扣、喜茶折扣、麦当劳肯德基折扣"
-keywords: 派券大叔微信公众号,美团红包,饿了么红包,美团优惠券,饿了么优惠券,滴滴打车红包,滴滴打车优惠券,高德打车优惠券,肯德基优惠券,肯德基打折,喜茶优惠券,水果优惠券
-author: 派券大叔微信公众号
+description: "派券大叔公众号，关注派券大叔公众号领取美团饿了么红包、滴滴打车红包、滴滴打折优惠券、高德打车优惠券、t3出行优惠券、电影折扣、喜茶折扣、麦当劳肯德基折扣"
+keywords: 派券大叔公众号,美团红包,饿了么红包,美团优惠券,饿了么优惠券,滴滴打车红包,滴滴打车优惠券,高德打车优惠券,肯德基优惠券,肯德基打折,喜茶优惠券,水果优惠券
+author: 派券大叔公众号
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://paiquandashu.com
+url: http://www.paiquandashu.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
