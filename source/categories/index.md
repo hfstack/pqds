@@ -6,5 +6,5 @@ type: "categories"
 comments:
 description:
 keywords:
-top_img:
+top_img: false
 ---

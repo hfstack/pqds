@@ -8,21 +8,21 @@ top_img: false
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>观影网微信公众号 优酷腾讯爱奇艺vip视频免费看 优酷腾讯爱奇艺vip视频解析 优酷腾讯爱奇艺会员视频免费看</title>
-    <meta name=”description” content="优酷腾讯爱奇艺哔哩哔哩免会员视频观看，观影网微信公众号">
+    <title>观影网 腾讯、优酷、爱奇艺、乐视等会员视频免费看</title>
+    <meta name=”description” content="免会员、免广告观看各大视频网站会员视频，腾讯、优酷、爱奇艺等会员视频免费看，腾讯、优酷、爱奇艺会员视频在线观看">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?8dc59c86f262fec92e6e5ae452c0e223";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
     <style>
         html {
             height: 100%;
-        }
-
-        body {
-            box-sizing: border-box;
-            width: 100%;
-            height: 100%;
-            padding: 0 30px;
-            background: url('https://7778-wx-coupon-prod-v975z-1300289696.tcb.qcloud.la/image/pexels-paul-voie-2627945.jpg?sign=0f39e53053f7221b606f9ba05cd4d6f8&t=1645807929') no-repeat center center;
-            background-size: cover;
-            padding-top: 30px;
         }
 
         input {
@@ -41,18 +41,95 @@ top_img: false
             font-size: 16px;
             border-top-right-radius: 5px;
             border-bottom-right-radius: 5px;
+            cursor: pointer;
+        }
 
+        #search:hover {
+            background-color: #27ae60;
+            color: #fff;
+        }
+
+        .guanyingnet_logo {
+            width: 8em;
+            margin: 0 auto;
+        }
+
+        .search-item {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .qrcode {
+            height: 10em;
+            margin: 0 !important;
+        }
+
+        .group-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .search-wraper {
+            width: 100%;
+            margin: 2em 0;
+        }
+
+        .form-group {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .form-control {
+            display: block;
+            width: 60%;
+            height: 34px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        }
+
+        .qrcode-container {
+            display: flex;
         }
     </style>
 </head>
 
 <body>
-    <h2><img src="http://yun.paiquandashu.com/guanyingnet/%E8%A7%82%E5%BD%B1%E7%BD%91.png" style="width: 10em"/></h2>
-    <p style="color: #fff; font-size: 1.1em; text-align: center">请输入想看的影视剧，点击查询</p>
-    <div style="display: flex; justify-content: center; margin-bottom: 20px;">
-        <input id="name" class="nameInput" type="text" value="" placeholder="请输入电影/电视剧名称">
-        <div id="search">查询</div>
-    </div>
+    <header class="site-header">
+        <div class="search-item">
+            <h1 class="seo-h1">Vip视频解析</h1>
+            <h2 class="seo-h2">全网视频免费高清在线解析</h2>
+            <p class="package-amount">收录了国内<strong>主要</strong>视频网站会员视频</span></p>
+            <p class="package-amount">本网站只用户学习交流请勿用于商业目的，视频中的广告不可信</p>
+
+            <div class="qrcode-container">
+                <img src="http://yun.paiquandashu.com/guanyingnet/qrcode_for_gh_ae2c4c600b60_258.jpg" class="qrcode">
+                <div class="group-info">
+                    <p><label class="text-left">公共号：</label><span>观影网</span></p>
+                    <p class="pull-left">免费观看全网vip视频</p>
+                </div>
+            </div>
+            <div class="search-wraper" role="search">
+                <div class="form-group">
+                    <input id="name" class="form-control search clearable" placeholder="请输入视频名称或者视频的地址"
+                        autocomplete="off" autofocus="" tabindex="0" autocorrect="off" autocapitalize="off"
+                        spellcheck="false" id="url">
+                    <div id="search">查询</div>
+                </div>
+            </div>
+        </div>
+    </header>
     <iframe src="" id="player" width="100%" height="480px" allowtransparency="true" allowfullscreen="true"
         frameborder="0" scrolling="no"></iframe>
 

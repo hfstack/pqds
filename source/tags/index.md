@@ -5,5 +5,5 @@ updated:
 type: "tags"
 description: 标签页
 keywords:
-top_img:
+top_img: false
 ---
