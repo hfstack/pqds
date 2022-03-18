@@ -106,5 +106,5 @@ deploy:
   type: "git"
   repo: git@110.40.194.115:/var/repo/blog.git
   branch: master
-baidusitemap:
-  path: baidusitemap.xml
+sitemap:
+  path: sitemap.xml
