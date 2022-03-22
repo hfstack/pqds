@@ -1,11 +1,11 @@
 ---
 title: 喜茶为什么这么火
-date: 2022-03-14 22：25:00
-updated:
-tags: 喜茶 喜茶优惠券 喜茶折扣
+date: 2022-03-14 22:25:00
+updated: 2022-03-21 15:50:00
+tags: 喜茶 喜茶优惠券
 categories: 喜茶
-keywords: 喜茶为什么这么火 喜茶有哪些好喝的推荐
-description: 喜茶火的原因 喜茶加盟条件
+keywords: 喜茶为什么这么火，喜茶有哪些好喝的推荐
+description: 喜茶火的原因，喜茶加盟条件
 top_img: http://yun.paiquandashu.com/xicha/xicha.jpg
 comments:
 cover: http://yun.paiquandashu.com/xicha/xichalogo.jpg
