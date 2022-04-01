@@ -10,7 +10,7 @@ top_img: https://artwork.starbucks.com.cn/banners-homepage-banner/main_9b62183b-
 comments:
 cover: http://yun.paiquandashu.com/xingbake/f7d7004c32f14c979916289473de54f8.jpeg
 ---
-# 星巴克优惠券免费领，饮品优惠，在线点餐地址8折
+# 星巴克优惠券免费领，饮品优惠，在线点餐低至8折
 
 ## 星巴克的什么咖啡最好喝
 
